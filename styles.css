@@ -3,13 +3,13 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-family: 'Courier New', Courier, monospace;
     background-color: #131010;
     color: #495e57;
 }
 
-.container {
+.header__container {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +17,7 @@ body {
 
 .logo {
     width: 50%;
+    margin: 5px 40px;
 }
 
 ul {
@@ -37,4 +38,28 @@ ul {
 a {
     text-decoration: none;
     color: #495e57;
+}
+
+.main__container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "promotion, promotion, promotion"
+                         "item1, item2, item3";
+    gap: 15px;
+
+}
+
+.promotion {
+    grid-area: promotion;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #495e57;
+    color: #131010;
+    font-size: 5rem;
+    margin: 5px 40px;
+}
+
+.promotion p {
+    text-align: center;
 }
