@@ -43,8 +43,8 @@ a {
 .main__container {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "promotion, promotion, promotion"
-                         "item1, item2, item3";
+    grid-template-areas: "promotion"
+                         "info";
     gap: 15px;
 
 }
@@ -58,8 +58,47 @@ a {
     color: #131010;
     font-size: 5rem;
     margin: 5px 40px;
+    border-radius: 15px;
 }
 
 .promotion p {
     text-align: center;
+}
+
+.info {
+    grid-area: info;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "item1 item2 item3";
+    margin: 5px 40px;
+    gap: 15px;
+}
+
+.info__item {
+    height: auto;
+    background-color: #495e57;
+    color: #131010;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.info__item img {
+    width: 50%;
+    margin-top: 5px;
+}
+
+.info__item h2 {
+    margin-top: 5px;
 }
