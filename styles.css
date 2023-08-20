@@ -82,9 +82,7 @@ a {
     grid-area: info;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    /*grid-template-columns: repeat(3, 1fr);*/
     grid-template-areas: "item1" "item2" "item3";
-    /*grid-template-areas: "item1 item2 item3";*/
     margin: 5px 10%;
     gap: 15px;
 }
@@ -155,7 +153,7 @@ a {
     font-size: 2rem;
 }
 
-h3, h4 {
+h3 {
     margin: 2%;
 }
 
