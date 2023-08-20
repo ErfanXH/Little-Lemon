@@ -54,6 +54,7 @@ a {
                          "info";
     gap: 10px;
     width: 100%;
+    /*border: 3px solid green;*/
 }
 
 /* promotion */
@@ -123,7 +124,8 @@ a {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "left" "right";
-    margin: 5px 10%;
+    margin: 5px 0;
+    /*border: 3px solid red;*/
 }
 
 .left {
@@ -131,6 +133,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 1 auto;
 }
 
 .left img {
@@ -141,10 +144,13 @@ a {
     grid-area: right;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex: 1 1 auto;
 }
 
 .right p {
     text-align: center;
+    font-size: 2rem;
 }
