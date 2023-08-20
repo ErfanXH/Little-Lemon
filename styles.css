@@ -154,3 +154,32 @@ a {
     text-align: center;
     font-size: 2rem;
 }
+
+h3, h4 {
+    margin: 2%;
+}
+
+/* Tablet & Desktop */
+
+@media screen and (min-width: 768px) {
+    .info {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "item1 item2 item3";
+        grid-template-rows: auto;
+    }
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "left right";
+        grid-template-rows: auto;
+        margin:  100px 0 5px 0;
+        border: 3px solid #495e57;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    .left img {
+        width: 30%;
+    }
+}
