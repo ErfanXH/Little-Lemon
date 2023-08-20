@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Little Lemon</title>
     <link rel="stylesheet" href="styles.css" />
+    <!--
+        Meta !!!!!!!!!!!!!!!!!1
+    -->
   </head>
   <body>
     <header>
-      <div class="header__container">
+      <div class="header__container" id="Home">
         <img
           class="logo"
           src="Images/full_yellow.png"
@@ -18,10 +21,11 @@
     </header>
     <nav>
       <ul class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Reserve</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Reserve">Reserve</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <main>
@@ -33,7 +37,7 @@
           </p>
         </article>
         <article class="info">
-          <section class="info__item item1">
+          <section class="info__item item1" id="Reserve">
             <img src="Images/info.svg" alt="" />
             <h2>Our Menu</h2>
             <p>
@@ -41,7 +45,7 @@
               voluptatum.
             </p>
           </section>
-          <section class="info__item item2">
+          <section class="info__item item2" id="Menu">
             <img src="Images/info.svg" alt="" />
             <h2>Our Menu</h2>
             <p>
@@ -49,7 +53,7 @@
               voluptatum.
             </p>
           </section>
-          <section class="info__item item3">
+          <section class="info__item item3" id="News">
             <img src="Images/info.svg" alt="" />
             <h2>Our Menu</h2>
             <p>
@@ -61,7 +65,7 @@
       </div>
     </main>
     <footer>
-      <div class="footer__container">
+      <div class="footer__container" id="contact">
         <div class="footer__item left">
           <img src="Images/frame_yellow.png" alt="" />
         </div>
