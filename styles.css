@@ -8,3 +8,14 @@ body {
     background-color: #131010;
     color: #ffffff;
 }
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    
+}
