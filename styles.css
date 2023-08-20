@@ -86,7 +86,6 @@ a {
     /*grid-template-areas: "item1 item2 item3";*/
     margin: 5px 10%;
     gap: 15px;
-    border: 3px solid red;
 }
 
 .info__item {
@@ -120,3 +119,32 @@ a {
 
 /* footer */
 
+.footer__container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "left" "right";
+    margin: 5px 10%;
+}
+
+.left {
+    grid-area: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 50%;
+}
+
+.right {
+    grid-area: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right p {
+    text-align: center;
+}
