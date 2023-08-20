@@ -6,7 +6,7 @@ body {
     font-size: 1.6rem;
     font-family: 'Courier New', Courier, monospace;
     background-color: #131010;
-    color: #ffffff;
+    color: #495e57;
 }
 
 .container {
@@ -16,6 +16,24 @@ body {
 }
 
 .logo {
-    max-width: 100%;
-    
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    gap: 15px;
+    font-size: 5rem;
+    padding: 10px 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #495e57;
 }
