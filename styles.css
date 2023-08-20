@@ -46,7 +46,6 @@ a {
     grid-template-areas: "promotion"
                          "info";
     gap: 15px;
-
 }
 
 .promotion {
