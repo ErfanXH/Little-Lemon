@@ -39,7 +39,7 @@ ul {
     padding: 10px 40px;
 }
 
-a {
+.navigation a {
     text-decoration: none;
     color: #495e57;
 }
@@ -114,6 +114,11 @@ a {
 
 .info__item h2 {
     margin-top: 5px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #131010;
 }
 
 /* footer */
