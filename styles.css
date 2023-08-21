@@ -93,6 +93,7 @@ ul {
     color: #131010;
     border-radius: 15px;
     text-align: center;
+    padding-bottom: 2.5rem;
 }
 
 .item1 {
@@ -121,6 +122,12 @@ ul {
     color: #131010;
 }
 
+.info .button {
+    background-color: #495e57;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 /* footer */
 
 .footer__container {
@@ -128,7 +135,6 @@ ul {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "left" "right";
     margin: 5px 0;
-    /*border: 3px solid red;*/
 }
 
 .left {
