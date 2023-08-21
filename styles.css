@@ -44,6 +44,12 @@ ul {
     color: #495e57;
 }
 
+.navigation a:hover {
+   color: aliceblue;
+   transition: 0.5s;
+}
+
+
 /* main */
 
 .main__container {
@@ -96,6 +102,11 @@ ul {
     padding-bottom: 2.5rem;
 }
 
+.info__item:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .item1 {
     grid-area: item1;
 }
@@ -122,10 +133,20 @@ ul {
     color: #131010;
 }
 
+p::selection, h2::selection, h3::selection, h4::selection, a::selection {
+    color: white;
+    background-color: #000;
+}
+
 .info .button {
     background-color: #495e57;
     font-size: 2rem;
     font-weight: 600;
+}
+
+.info .button:hover {
+    color: rgba(187, 194, 201, 0.616);
+    transition: 0.5s;
 }
 
 /* footer */
