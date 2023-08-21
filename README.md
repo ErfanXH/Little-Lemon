@@ -1,12 +1,10 @@
 # Little-Lemon
-Little Lemon - A Responsive Design of Little Lemon Restaurant
-
 <div>
 <i>Little Lemon</i> is one of my <i>Web Project</i> in the path of learning <i>Front-end Development</i>.
 </div>
 <br />
 <div>
-I studied <a href="[https://codewithmosh.com](https://www.coursera.org/learn/html-and-css-in-depth?specialization=meta-front-end-developer)">Meta</a>'s Front-end Development - HTML & CSS in Depth course to Learn HTML and CSS.
+I studied <a href="https://www.coursera.org/learn/html-and-css-in-depth?specialization=meta-front-end-developer">Meta</a>'s <i>Front-end Development - HTML & CSS in Depth</i> course to Learn HTML and CSS.
 </div>
 <br />
 <div>
